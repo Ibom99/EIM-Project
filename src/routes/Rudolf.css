@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.content{
+    width: 80vw;
+    height: 100vh;
+    /* background-image: url(/src/assets/images/90cd7ad5-6eee-4b97-8f11-c48454bb82ea.JPG);
+    background-size: cover; */
+    position: relative;
+}

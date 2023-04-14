@@ -1,0 +1,123 @@
+
+:root{
+    --nav-font-size: 1rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    /* background-color: aliceblue; */
+    height: 100vh;
+    width: 20vw;
+    /* border-right: 1px solid black; */
+
+}
+
+.logo-container{
+    
+    text-align: center;
+    padding-top: 2rem;
+    /* background-color: aliceblue; */
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    /* background-color: aliceblue; */
+}
+
+.description{
+    text-align: center;
+    font-size: smaller;
+    font-family: 'Lovelo', sans-serif;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+a{
+    color: black;
+}
+.socials{
+    /* background-color: aliceblue; */
+    display:flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    font-size: smaller;
+}
+
+.menu{
+    /* background-color: aliceblue; */
+    margin: 0rem 0rem 0rem 4rem;
+    font-family: arial,verdana,sans serif;
+    font-size: var(--nav-font-size);
+    
+}
+
+.dropdown-btn{
+    border: none;
+    background-color:transparent;
+    font-size: var(--nav-font-size);
+    margin-bottom: 1rem;
+}
+
+.dropdown-btn:hover{
+    cursor: pointer;
+    color: gray;
+
+}
+
+.plus-icon{
+    font-size:0.6rem;
+    
+}
+
+.sub-menu li{
+    margin-bottom: 1rem;
+    list-style: none;
+    font-size: 0.8rem;
+    /* text-decoration: none; */
+}
+
+.sub-menu li:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+/* .rudolf-link{
+    text-decoration: none;
+    color: black;
+} */
+
+.mresidence-link{
+    text-decoration: none;
+    color: black;
+}
+
+.about{
+    margin-bottom: 1rem;
+}
+.about:hover{
+    cursor: pointer;
+    color: gray; 
+}
+.about-link{
+   
+    text-decoration: none;
+    color: black;
+}
+
+.contact{
+    margin-bottom: 1rem;
+}
+
+.copyright{
+    font-size: 0.6rem;
+padding-top: 5.5rem;
+text-align: center;
+font-family: arial,verdana,sans serif;
+}
+

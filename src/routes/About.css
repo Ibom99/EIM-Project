@@ -1,0 +1,18 @@
+
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.about-content{
+    width: 80vw;
+    height: 100vh;
+    border-left: 0.5px solid black;
+}
+.profile{
+    margin: 2rem 0rem 0rem 2rem;
+    width: 40%;
+    height: auto;
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery-container {
+  height: 100vh;
+  width: 80vw;
+  position: relative;
+  
+}
+.info-text {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  z-index: 999;
+  color: black;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  top: 92%;
+  left: 85%;
+  width: 9rem;
+background-color: white;
+text-align: right;
+}
+
+.info-text h1{
+  font-size: 0.8rem;
+}
+/* .info-text p{
+  font-size: 0.6rem;
+} */
+
+.background-image {
+  transition: background 2s ease;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel span {
+  width: 40px;
+  height: 6px;
+  background-color: pink;
+  border-radius: 10px;
+  cursor: nwse-resize;
+}
