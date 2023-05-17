@@ -9,18 +9,19 @@
     box-sizing: border-box;
 }
 
+
 .nav{
     /* background-color: aliceblue; */
     height: 100vh;
     width: 20vw;
     /* border-right: 1px solid black; */
-
+/* position: absolute; */
 }
 
 .logo-container{
     
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     /* background-color: aliceblue; */
 }
 
@@ -71,7 +72,7 @@ a{
 }
 
 .plus-icon{
-    font-size:0.6rem;
+    font-size:0.8rem;
     
 }
 
@@ -96,6 +97,9 @@ a{
     text-decoration: none;
     color: black;
 }
+.onaresidence-link{
+    text-decoration: none;
+}
 
 .about{
     margin-bottom: 1rem;
@@ -115,9 +119,51 @@ a{
 }
 
 .copyright{
-    font-size: 0.6rem;
-padding-top: 5.5rem;
+    font-size: 0.5rem;
+padding-top: 3rem;
 text-align: center;
 font-family: arial,verdana,sans serif;
 }
 
+.hamburger{
+    
+    display: none;
+text-align: left;
+    color: black;
+    font-size: larger;
+    margin: 0.5rem 0rem 0.3rem 1rem;
+    /* background-color: yellow; */
+    /* left: 20%; */
+}
+.hamburger:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+
+@media (min-width: 300px) and (max-width: 768px){
+   .nav{
+    display:none;
+    width: 100vw;
+   }
+    .nav.expanded{
+        display: block;
+        overflow-y: hidden;
+    }
+    .hamburger{
+        display: block;
+        width:fit-content
+        /* position: fixed; */
+    }
+    .logo{
+        width: 50%;
+
+    }
+    .logo-container{
+        padding-top: 0.5rem;
+        /* background-color: aliceblue; */
+    }
+    .nav-container{
+        width: 100vw;
+    }
+}

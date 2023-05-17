@@ -1,33 +1,16 @@
-.m-container{
+.ona-container{
     display: flex;
     flex-direction: row;
    
 }
 
-.m-content{
+.ona-content{
     text-align: center;
     width: 80vw;
     height: 100vh;
     /* background-image: url(/src/assets/images/90cd7ad5-6eee-4b97-8f11-c48454bb82ea.JPG);
     background-size: cover; */
     position: relative;
-}
-
-.imageSlider{
-    margin-top: 4rem;
-    /* margin-left: 1rem; */
-}
-/* .carousel{
-    
-} */
-.image{
-    height: 28rem;
-    width: auto;
-    /* display: block; */
-}
-
-.items{
-    background-color: white;
 }
 
 .residence{
@@ -37,39 +20,12 @@
     font-family: 'Lovelo', sans-serif;
 }
 
-/* 
-.items1{
-background-color: aqua;
-text-align: center;
-}
-
-.items2{
-background-color: bisque;
-}
-
-.items3{
-    background-color: pink; 
-     
-}
-.items4{
-    background-color: orange; 
-     
-}
-.items5{
-    background-color: blueviolet; 
-     
-}
-.items6{
-    background-color: brown; 
-     
-} */
-
 @media (min-width: 300px) and (max-width: 768px){
-    .m-container{
+    .ona-container{
         flex-direction: column;
         
     }
-    .m-content{
+    .ona-content{
         height: fit-content;
     }
     

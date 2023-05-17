@@ -10,11 +10,15 @@ import { FaFacebookF } from "react-icons/fa";
 import { BsPlusLg } from "react-icons/bs";
 import { MdClose } from "react-icons/md";
 
+import { VscMenu } from "react-icons/vsc";
+
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isOpenTwo, setIsOpenTwo] = useState(false)
     const [isActive, setIsActive] = useState(false)
     const [isActiveTwo, setIsActiveTwo] = useState(false)
+
+    const [isNavExpanded, setIsNavExpanded] = useState(false)
    
     const dropDown = () =>{
         setIsOpen(!isOpen)
@@ -24,10 +28,16 @@ const Nav = () => {
         setIsOpenTwo(!isOpenTwo)
     }
     return(
-        <div className="nav">
+        <div className="nav-container">
+            <i className="hamburger" onClick={() => {
+                    setIsNavExpanded(!isNavExpanded)
+                   }}> <VscMenu /> </i>
+
+        
+        <div className={isNavExpanded ? "nav expanded" : "nav"}>
 
             <div className="logo-container">
-            <Link to="/" className="home-link"><img  onMouseOver={e => e.currentTarget.src = "/src/assets/images/Logo.png" } className="logo" onMouseOut={e => e.target.src = "/src/assets/images/blackLogo.png"} src={logo} alt="Ebony and Ivory Logo" /></Link>
+            <Link to="/" className="home-link"><img  onMouseOver={e => e.currentTarget.src = "https://res.cloudinary.com/dzzohccd8/image/upload/v1682949567/Home%20Gallery%20Images/EIM_Logo_oiyar5.png" } className="logo" onMouseOut={e => e.target.src = "https://res.cloudinary.com/dzzohccd8/image/upload/v1682949880/Home%20Gallery%20Images/2_plqocz.png"} src={logo} alt="Ebony and Ivory Logo" /></Link>
             </div>
 
             <div className="description">
@@ -54,7 +64,7 @@ const Nav = () => {
               <ul className="sub-menu">
               {/* <Link to="/Rudolf" className="rudolf-link"><li>Project Rudolf</li></Link> */}
               <Link to="/MResidence" className="mresidence-link" ><li>M Residence</li></Link>
-              <li>ONA Residence</li>
+              <Link to="/ONAResidence" className="onaresidence-link"><li>ONA Residence</li></Link>
               <li>Project V</li>
     
           </ul>
@@ -75,7 +85,8 @@ const Nav = () => {
             
             
             </div>
-            <p className="copyright">Developed <b>by </b>Esther Ibom 2023 &copy;  <br></br> All content Copyright &copy; 2023 Ebony & Ivory Media </p>
+            <p className="copyright">Developed <b>by </b>Esther Ibom 2023 &copy;  <br></br> All content Copyright &copy; 2023 <br></br>Ebony & Ivory Media </p>
+        </div>
         </div>
     )
 }

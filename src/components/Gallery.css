@@ -47,3 +47,22 @@ text-align: right;
   border-radius: 10px;
   cursor: nwse-resize;
 }
+
+
+@media (min-width: 300px) and (max-width: 768px){
+  .info-text{
+    width: 5rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.25rem;
+    left: 75%;
+  }
+  .info-text h1{
+    font-size: 0.4rem;
+  }
+  
+.gallery-container {
+  height: 82vh;
+  width: 100vw;
+  
+}
+
+}

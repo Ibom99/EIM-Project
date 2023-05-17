@@ -4,11 +4,11 @@ import "./Rudolf.css"
 
 const Rudolf = () =>{
     return(
-        <div className="container">
-            <div className="navigation">
+        <div className="rudolf-container">
+            <div className="rudolf-navigation">
             <Nav />
             </div>
-            <div className="content">
+            <div className="rudolf-content">
             <h1>Project Rudolf</h1>
 
             </div>

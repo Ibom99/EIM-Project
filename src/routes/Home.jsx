@@ -3,7 +3,10 @@ import Gallery from "../components/Gallery";
 import Nav from "../components/Nav";
 import "./Home.css"
 
+
+
 const Home = () => {
+
     return (
         <div className="container">
             <div className="flex-container">
@@ -13,7 +16,12 @@ const Home = () => {
 
                 <div className="content">
                     <Gallery />
+                   
                 </div>
+                
+                
+                
+                
 
             </div>
 

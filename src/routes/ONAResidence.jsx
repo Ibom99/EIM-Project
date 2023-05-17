@@ -1,11 +1,9 @@
 import React from "react";
 import Nav from "../components/Nav";
-import "./MResidence.css"
+import "./ONAResidence.css"
 
-
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-
+import Carousel from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 
 const responsive = {
     superLargeDesktop: {
@@ -31,60 +29,62 @@ const responsive = {
     }
   };
 
-const MResidence = () =>{
+
+const ONAResidence = () =>{
 return(
-    <div className="m-container">
-            <div className="m-navigation">
+    <div className="ona-container">
+        <div className="navigation">
             <Nav />
             </div>
-            <div className="m-content">
-            
-<div className="imageSlider">
+
+            <div className="ona-content">
+
+            <div className="imageSlider">
             <Carousel  responsive={responsive}   keyBoardControl={true}>
                  <div className="items">
-                    <img className="image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979310/M%20Residence/AD6987D1-EDB7-4A5C-B1A4-99237C71E35A_m9e5cr.jpg"/>
+                    <img className="image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446038/ONA%20Residence/Ona_Interior--8_nmcp0y.jpg" />
                     </div>
 
                  <div className="items">
-                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979311/M%20Residence/2CE7263B-27E6-429F-9AF9-4D17683B22A6_ypg9yd.jpg"/>
+                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446032/ONA%20Residence/Ona_Interior--9_rhsv51.jpg"/>
                  </div>
 
                   <div className="items">
-                  <img className="image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979359/M%20Residence/7948798A-D617-4626-98FD-7EA4042AD689_rfwxw8.jpg"/>
+                  <img className="image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446043/ONA%20Residence/Ona_Interior--6_1_myokfo.jpg"/>
 
                   </div>
 
                   <div className="items">
-                  <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979366/M%20Residence/51FC7FBC-A9CB-48A3-8392-E7ECD1D33AC1_fc4wrn.jpg" />
+                  <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446024/ONA%20Residence/Ona_Interior--10_umi42w.jpg" />
 
                   </div>
 
                   <div className="items">
-                  <img className="image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979312/M%20Residence/288BE02A-A062-4773-88EA-DE4D4E9AFBC3_hccihg.jpg"/>
+                  <img className="image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446039/ONA%20Residence/Ona_Interior--7_vwiwuk.jpg"/>
 
                   </div>
 
+                   <div className="items">
+                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446042/ONA%20Residence/Ona_Interior--5_cjr5tm.jpg" />
+                    
+                 </div>
+
                   <div className="items">
-                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979314/M%20Residence/4C8CCDAA-1D96-4D22-B899-164E86374AF8_gutyjq.jpg" />
+                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446025/ONA%20Residence/onaresidencebedroom_cggywu.jpg" />
+                    
+                 </div>
+{/*
+                 <div className="items">
+                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683445974/ONA%20Residence/Ona_Interior--2_aclnz9.jpg" />
                     
                  </div>
 
                  <div className="items">
-                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979372/M%20Residence/A6624A93-A32F-4200-B166-58E5544F59E7_n0xbhz.jpg" />
+                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446039/ONA%20Residence/Ona_Interior--3_1_el3vi6.jpg" />
                     
-                 </div>
+                 </div> */}
 
-                 <div className="items">
-                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979373/M%20Residence/E04A5AC2-B437-468A-9371-CAC5A21248A3_ywceui.jpg" />
-                    
-                 </div>
-
-                 <div className="items">
-                    <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979356/M%20Residence/F14EEB0C-2789-4FB7-8E02-0AA32F10AF22_bqowpv.jpg" />
-                    
-                 </div>
-
-                 <div className="items">
+                 {/*<div className="items">
                     <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979371/M%20Residence/FEC55CF1-B04F-4BDF-8117-F3D101263A52_vj9bcr.jpg"
                      />
                     
@@ -106,17 +106,14 @@ return(
                     <img className="image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1682979366/M%20Residence/A90718DB-7208-4550-B9B4-D11C8ED9EC5F_e0natc.jpg"
                      />
                     
-                 </div>
+                 </div> */}
 </Carousel>
 
-</div>
-<h1 className="residence">M Residence</h1>
             </div>
-            
-
-            
-        </div>
+<h1 className="residence">ONA Residence</h1>
+    </div>
+    </div>
 )
 }
 
-export default MResidence
+export default ONAResidence
