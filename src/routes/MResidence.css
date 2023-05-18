@@ -37,6 +37,11 @@
     font-family: 'Lovelo', sans-serif;
 }
 
+.architect{
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
 /* 
 .items1{
 background-color: aqua;
@@ -63,7 +68,23 @@ background-color: bisque;
     background-color: brown; 
      
 } */
-
+.mobile-container{
+    display: none;
+}
+.mobile-content{
+    display:flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    gap: 2rem;
+    /* background-color: beige; */
+}
+.mobile-image{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+}
 @media (min-width: 300px) and (max-width: 768px){
     .m-container{
         flex-direction: column;
@@ -74,10 +95,13 @@ background-color: bisque;
     }
     
     .imageSlider{
-        margin-left: 3.5rem;
+        display: none;
     }
-    .residence{
-        margin-left: 3.5rem;
+    
+    .mobile-container{
+        display: block;
     }
-   
+   .residence{
+    display: none;
+   }
 }

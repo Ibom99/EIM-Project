@@ -65,7 +65,7 @@ const Nav = () => {
               {/* <Link to="/Rudolf" className="rudolf-link"><li>Project Rudolf</li></Link> */}
               <Link to="/MResidence" className="mresidence-link" ><li>M Residence</li></Link>
               <Link to="/ONAResidence" className="onaresidence-link"><li>ONA Residence</li></Link>
-              <li>Project V</li>
+              <Link to="/Projectv" className="vproject-link"><li>Project V</li></Link>
     
           </ul>
             )}
@@ -75,7 +75,7 @@ const Nav = () => {
             {isOpenTwo && (
               <ul className="sub-menu">
               
-              <li>Project X</li>
+              <Link to="/Projectx" className="xproject-link"><li>Project X</li></Link>
           </ul>
             )}
             </div>

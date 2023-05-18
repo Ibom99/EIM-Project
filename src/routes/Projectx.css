@@ -1,10 +1,10 @@
-.ona-container{
+.x-container{
     display: flex;
     flex-direction: row;
    
 }
 
-.ona-content{
+.x-content{
     text-align: center;
     width: 80vw;
     height: 100vh;
@@ -13,20 +13,32 @@
     position: relative;
 }
 
+.imageSlider{
+    margin-top: 4rem;
+    /* margin-left: 1rem; */
+}
+
+.image{
+    height: 28rem;
+    width: auto;
+    /* display: block; */
+}
+
+.items{
+    background-color: white;
+}
+
 .residence{
     margin-top: 2rem;
     text-align: left;
     font-size: 1rem;
     font-family: 'Lovelo', sans-serif;
 }
-.architect{
-    font-weight: lighter;
-    font-size: 0.8rem;
-}
-.onamobile-container{
+
+.xmobile-container{
     display: none;
 }
-.onamobile-content{
+.xmobile-content{
     display:flex;
     width: 100vw;
     flex-direction: column;
@@ -35,18 +47,18 @@
     gap: 2rem;
     /* background-color: beige; */
 }
-.onamobile-image{
+.xmobile-image{
     width: 90%;
     height: auto;
     /* background-color: aqua; */
 }
 
 @media (min-width: 300px) and (max-width: 768px){
-    .ona-container{
+    .x-container{
         flex-direction: column;
         
     }
-    .ona-content{
+    .x-content{
         height: fit-content;
     }
     
@@ -54,7 +66,7 @@
         display: none;
     }
     
-    .onamobile-container{
+    .xmobile-container{
         display: block;
     }
    .residence{

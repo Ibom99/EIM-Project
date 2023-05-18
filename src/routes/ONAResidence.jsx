@@ -39,6 +39,25 @@ return(
 
             <div className="ona-content">
 
+            <div className="onamobile-container">
+            <div className="onamobile-content">
+
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446024/ONA%20Residence/Ona_Interior--10_umi42w.jpg" />
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446038/ONA%20Residence/Ona_Interior--8_nmcp0y.jpg" />
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446043/ONA%20Residence/Ona_Interior--6_1_myokfo.jpg" />
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446039/ONA%20Residence/Ona_Interior--7_vwiwuk.jpg" />
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446032/ONA%20Residence/Ona_Interior--9_rhsv51.jpg" />
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446026/ONA%20Residence/Ona_Interior--4_rt4jue.jpg" />
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446042/ONA%20Residence/Ona_Interior--5_cjr5tm.jpg" />
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683445974/ONA%20Residence/Ona_Interior--2_aclnz9.jpg" />
+            <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446039/ONA%20Residence/Ona_Interior--3_1_el3vi6.jpg" />
+            
+            </div>
+
+            </div>
+
+
+
             <div className="imageSlider">
             <Carousel  responsive={responsive}   keyBoardControl={true}>
                  <div className="items">
@@ -110,7 +129,7 @@ return(
 </Carousel>
 
             </div>
-<h1 className="residence">ONA Residence</h1>
+<h1 className="residence">ONA Residence<br></br><span className="architect">Bold Studio NG</span></h1>
     </div>
     </div>
 )

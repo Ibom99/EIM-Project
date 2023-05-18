@@ -99,6 +99,15 @@ a{
 }
 .onaresidence-link{
     text-decoration: none;
+    color: black;
+}
+.vproject-link{
+    text-decoration: none;
+    color: black;
+}
+.xproject-link{
+    text-decoration: none;
+    color: black;
 }
 
 .about{
@@ -141,6 +150,7 @@ text-align: left;
 }
 
 
+
 @media (min-width: 300px) and (max-width: 768px){
    .nav{
     display:none;
@@ -149,10 +159,11 @@ text-align: left;
     .nav.expanded{
         display: block;
         overflow-y: hidden;
+        /* position: fixed; */
     }
     .hamburger{
         display: block;
-        width:fit-content
+        width:fit-content;
         /* position: fixed; */
     }
     .logo{
