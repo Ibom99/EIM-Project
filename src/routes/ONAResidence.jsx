@@ -40,6 +40,13 @@ return(
             <div className="ona-content">
 
             <div className="onamobile-container">
+            <div className="m-description">
+       
+       <p className="mobile-title">ONA Residence</p>
+       <p className="mobile-arc">Bold Studio NG</p>
+       
+     </div>
+     {/* mobile view image order */}
             <div className="onamobile-content">
 
             <img className="onamobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1683446024/ONA%20Residence/Ona_Interior--10_umi42w.jpg" />
@@ -55,7 +62,8 @@ return(
             </div>
 
             </div>
-
+            
+{/* Webview of image slider */}
 
 
             <div className="imageSlider">

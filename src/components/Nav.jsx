@@ -17,6 +17,7 @@ const Nav = () => {
     const [isOpenTwo, setIsOpenTwo] = useState(false)
     const [isActive, setIsActive] = useState(false)
     const [isActiveTwo, setIsActiveTwo] = useState(false)
+    
 
     const [isNavExpanded, setIsNavExpanded] = useState(false)
    
@@ -29,11 +30,14 @@ const Nav = () => {
     }
     return(
         <div className="nav-container">
+            <div className="mobile-nav-icon">
+
+           
             <i className="hamburger" onClick={() => {
                     setIsNavExpanded(!isNavExpanded)
-                   }}> <VscMenu /> </i>
+                   }}>  {isNavExpanded ? <MdClose /> :<VscMenu /> } </i>
 
-        
+</div>
         <div className={isNavExpanded ? "nav expanded" : "nav"}>
 
             <div className="logo-container">
@@ -62,7 +66,7 @@ const Nav = () => {
             <button className="dropdown-btn" onClick={() => {setIsActive(!isActive); dropDown()}}>Residential <span className="plus-icon">{isActive ? <MdClose /> :<BsPlusLg /> }</span></button>
             {isOpen && (
               <ul className="sub-menu">
-              {/* <Link to="/Rudolf" className="rudolf-link"><li>Project Rudolf</li></Link> */}
+              <Link to="/Rudolf" className="rudolf-link"><li>Project Rudolf</li></Link>
               <Link to="/MResidence" className="mresidence-link" ><li>M Residence</li></Link>
               <Link to="/ONAResidence" className="onaresidence-link"><li>ONA Residence</li></Link>
               <Link to="/Projectv" className="vproject-link"><li>Project V</li></Link>

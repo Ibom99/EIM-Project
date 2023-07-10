@@ -9,6 +9,10 @@
     /* flex-direction: row; */
 /* position: relative; */
 }
+.about-img{
+    width: 50%;
+    height: 20rem;
+}
 
 
 @media (min-width: 300px) and (max-width: 768px){

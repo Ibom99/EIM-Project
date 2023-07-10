@@ -1,7 +1,7 @@
 .ona-container{
     display: flex;
     flex-direction: row;
-   
+    font-family: 'Lovelo', sans-serif;
 }
 
 .ona-content{
@@ -26,6 +26,7 @@
 .onamobile-container{
     display: none;
 }
+
 .onamobile-content{
     display:flex;
     width: 100vw;
@@ -56,6 +57,7 @@
     
     .onamobile-container{
         display: block;
+        width: 100vw;
     }
    .residence{
     display: none;

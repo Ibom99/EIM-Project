@@ -1,7 +1,7 @@
 .m-container{
     display: flex;
     flex-direction: row;
-   
+    font-family: 'Lovelo', sans-serif;
 }
 
 .m-content{
@@ -42,34 +42,26 @@
     font-size: 0.8rem;
 }
 
-/* 
-.items1{
-background-color: aqua;
-text-align: center;
-}
 
-.items2{
-background-color: bisque;
-}
-
-.items3{
-    background-color: pink; 
-     
-}
-.items4{
-    background-color: orange; 
-     
-}
-.items5{
-    background-color: blueviolet; 
-     
-}
-.items6{
-    background-color: brown; 
-     
-} */
 .mobile-container{
     display: none;
+    
+}
+.m-description{
+    /* background-color: aquamarine; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    
+}
+.mobile-title{
+    font-weight: bolder;
+}
+
+.mobile-arc{
+font-size: 0.8rem;
 }
 .mobile-content{
     display:flex;
@@ -100,6 +92,7 @@ background-color: bisque;
     
     .mobile-container{
         display: block;
+        width: 100vw;
     }
    .residence{
     display: none;

@@ -41,7 +41,12 @@ const Projectx = () => {
 
             <div className="x-content">
             <div className="xmobile-container">
-
+            <div className="m-description">
+       
+       <p className="mobile-title">Project X</p>
+       <p className="mobile-arc">Chrystal White Architects</p>
+       
+     </div>
 <div className="xmobile-content">
 
 <img className="xmobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1684427381/Project%20X/CWA-NAPIMS-Interior--22_vhls9b.jpg"/>
@@ -58,9 +63,11 @@ const Projectx = () => {
       />
      <img className="xmobile-image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1684427352/Project%20X/CWA-NAPIMS-Interior--8_ujiuqz.jpg" />
 
+<img className="xmobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1684427380/Project%20X/untitled--4_uvz7ew.jpg"/>
 
 <img className="xmobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1684427362/Project%20X/untitled--5_i1oiy5.jpg"/>
 <img className="xmobile-image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1684427311/Project%20X/CWA-NAPIMS_Interior-_bsdfdx.jpg"/> 
+<img className="xmobile-image" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1684427351/Project%20X/CWA-NAPIMS-Interior-2_owqrl5.jpg"/> 
 
 
 
@@ -120,7 +127,7 @@ const Projectx = () => {
 </Carousel>
 
 </div>
-<h1 className="residence">Project V<br></br><span className="architect">Chrystal White Architects</span></h1>
+<h1 className="residence">Project X<br></br><span className="architect">Chrystal White Architects</span></h1>
           
 
 

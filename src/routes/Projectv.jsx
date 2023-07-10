@@ -41,7 +41,12 @@ const Projectv = () => {
             <div className="v-content">
            
             <div className="vmobile-container">
-
+            <div className="m-description">
+       
+       <p className="mobile-title">Project V</p>
+       <p className="mobile-arc">Inter-Design Concepts</p>
+       
+     </div>
 <div className="vmobile-content">
 
 <img className="vmobile-image" alt="" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1684425754/Project%20V/Vulcan_suite_IDC--11_f5jxpk.jpg"/>

@@ -1,13 +1,58 @@
 .rudolf-container{
     display: flex;
     flex-direction: row;
+    font-family: 'Lovelo', sans-serif;
    
 }
 
 .rudolf-content{
+    text-align: center;
     width: 80vw;
     height: 100vh;
     /* background-image: url(/src/assets/images/90cd7ad5-6eee-4b97-8f11-c48454bb82ea.JPG);
     background-size: cover; */
     position: relative;
+}
+
+.rudolfmobile-container{
+    display: none;
+}
+
+.rudolfmobile-content{
+    display:flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    gap: 2rem;
+    /* background-color: beige; */
+}
+.rudolfmobile-image{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+
+@media (min-width: 300px) and (max-width: 768px){
+    .rudolf-container{
+        flex-direction: column;
+        
+    }
+    .rudolf-content{
+        height: fit-content;
+    }
+    
+    .imageSlider{
+        display: none;
+    }
+    
+    .rudolfmobile-container{
+        display: block;
+        width: 100vw;
+    }
+   .residence{
+    display: none;
+   }
+   
 }
