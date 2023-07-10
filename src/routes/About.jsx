@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../components/Nav";
 import "./About.css";
-import profile from "/src/assets/images/profile.jpg";
+// import profile from "/src/assets/images/profile.jpg";
 
 const About = () => {
   return (
@@ -50,24 +50,28 @@ const About = () => {
         <div className="profile-text">
         <h1 className="profile-title">Lead Photographer & Creative Director</h1>
         <p className="abouttibby">
-          About Tibby Omoare Tibby Omoare is the talented lead photographer
+        <p className="sentence">
+          Tibby Omoare is the talented lead photographer
           behind Ebony & Ivory Media, bringing a unique blend of expertise in
           architecture and design to the world of photography. With over 10
           years of experience capturing breathtaking images, Tibby's passion for
-          both art forms shines through in every project undertaken. Born and
+          both art forms shines through in every project undertaken.</p> 
+          <p className="sentence">Born and
           raised around Africa, Tibby developed a deep appreciation for the rich
           architectural heritage and design diversity found within the
           continent. This early fascination led to a pursuit of knowledge in the
           field of architecture, from the Savannah College of Art and Design
-          (SCAD). Her understanding of architectural principles, coupled with a
+          (SCAD).</p>
+          <p className="sentence"> Her understanding of architectural principles, coupled with a
           keen eye for detail, allows for a distinctive approach to photography.
           Having honed her craft over the years, Tibby has built a reputation
           for delivering exceptional results and consistently exceeding client
           expectations.
+          </p>
         </p>
         </div>
         
-        <img className="profile" src={profile} />
+        <img className="profile" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1689029571/IMG-5324_y92ib8.jpg" />
         </div>
         
       </div>
