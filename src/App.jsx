@@ -6,6 +6,7 @@ import MResidence from './routes/MResidence'
 import ONAResidence from './routes/ONAResidence'
 import Projectx from './routes/Projectx'
 import Projectv from './routes/Projectv'
+import Contact from './routes/Contact'
 
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/Rudolf' element={<Rudolf />} />
         <Route path ='/MResidence' element={<MResidence />} />
         <Route path='/About' element ={<About />} />
+        <Route path='/Contact' element = {<Contact />} />
         <Route path='/ONAResidence' element={<ONAResidence />} />
         <Route path='/Projectv'element={<Projectv />} />
         <Route path='/Projectx' element={<Projectx />} />

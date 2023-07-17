@@ -45,6 +45,21 @@ const About = () => {
         </p>
         
         </div>
+        <div className="clients-container">
+          
+          <h1 className="client-title">Clients</h1>
+          
+          
+            
+            <p>Crystal whites</p>
+            <p>Crystal whites</p>
+            <p>Crystal whites</p>
+            <p>Crystal whites</p>
+            
+
+        
+
+        </div>
 
         <div className="profile-container">
         <div className="profile-text">
@@ -71,7 +86,7 @@ const About = () => {
         </p>
         </div>
         
-        <img className="profile" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1689029571/IMG-5324_y92ib8.jpg" />
+        <img className="profile" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1689599744/IMG-5326_1_livdwx.jpg" />
         </div>
         
       </div>

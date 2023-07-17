@@ -84,7 +84,7 @@ const Nav = () => {
             )}
             </div>
             <Link to="/About" className="about-link"><p className="about">About</p></Link>
-            <p className="contact">Contact</p>
+            <Link to="/Contact" className="contact-link"><p className="contact">Contact</p></Link>
 
             
             

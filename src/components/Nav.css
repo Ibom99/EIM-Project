@@ -133,6 +133,14 @@ a{
 .contact{
     margin-bottom: 1rem;
 }
+.contact-link{
+    text-decoration: none;
+    color: black;
+}
+.contact:hover{
+    cursor: pointer;
+    color: gray; 
+}
 
 .copyright{
     font-size: 0.5rem;

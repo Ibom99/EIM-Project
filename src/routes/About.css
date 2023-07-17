@@ -14,7 +14,7 @@
 
 }
 .aboutus{
-    margin-top: 9.5vh;
+    margin-top: 3vh;
     margin-left: 3%;
     width: 90%;
     padding: 2rem ;
@@ -58,6 +58,7 @@
     /* background-color: antiquewhite; */
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 5vh;
     
 }
 
@@ -70,6 +71,18 @@
    
     font-size: 0.8rem;
 }
+
+.clients-container{
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+    /* background-color: antiquewhite; */
+   width: 80%; 
+   align-items: center;
+   height: 20vh;
+   margin-bottom: 5rem;
+}
+
 
 
 
@@ -119,5 +132,10 @@
     }
     .profile-text{
         width: 100%;
+    }
+    .clients-container{
+        flex-direction: column;
+        margin-bottom: 3vh;
+
     }
 }
