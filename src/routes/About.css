@@ -75,12 +75,30 @@
 .clients-container{
     margin: 0 auto;
     display: flex;
-   justify-content: space-between;
+    flex-direction: column;
+   /* justify-content: space-between; */
     /* background-color: antiquewhite; */
    width: 80%; 
-   align-items: center;
-   height: 20vh;
-   margin-bottom: 5rem;
+   /* align-items: center; */
+   height: fit-content;
+   margin-bottom: 8rem;
+   margin-top: 4rem;
+}
+.client-title{
+    text-align: left;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.client-logo{
+    width: 9rem;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/* background-color: beige; */
+width: 100%;
 }
 
 
@@ -134,8 +152,19 @@
         width: 100%;
     }
     .clients-container{
-        flex-direction: column;
-        margin-bottom: 3vh;
+        
+        margin-bottom: 5rem;
 
+    }
+    .client-title{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .logo-container{
+        flex-direction: column;
+    }
+
+    .logo-container img{
+        margin-bottom: 3rem;
     }
 }

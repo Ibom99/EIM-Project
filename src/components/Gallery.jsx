@@ -12,7 +12,7 @@ const Gallery = () => {
             }else{
                 setCurrentState(currentState + 1)
             }
-        }, 5000)
+        }, 15000)
         return () => clearTimeout(timer)
       }, [currentState])
 

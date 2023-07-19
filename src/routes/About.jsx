@@ -47,15 +47,15 @@ const About = () => {
         </div>
         <div className="clients-container">
           
-          <h1 className="client-title">Clients</h1>
+          <h1 className="client-title">SOME BRANDS  WE WORKED WITH </h1>
           
           
+            <div className="logo-container">
+            <img  className="client-logo" src="https://res.cloudinary.com/dzzohccd8/image/upload/v1689795220/interdesign_concept_kafebj.jpg"/>
+            <img className="client-logo"  src="https://res.cloudinary.com/dzzohccd8/image/upload/v1689795220/Crystal_White_logo_d6srmo.png" />
+            <img className="client-logo"  src="https://res.cloudinary.com/dzzohccd8/image/upload/v1689795220/spazio-ideale_logo_jzvegb.png" />
             
-            <p>Crystal whites</p>
-            <p>Crystal whites</p>
-            <p>Crystal whites</p>
-            <p>Crystal whites</p>
-            
+            </div>
 
         
 

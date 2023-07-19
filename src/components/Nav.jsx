@@ -89,7 +89,8 @@ const Nav = () => {
             
             
             </div>
-            <p className="copyright">Developed <b>by </b>Esther Ibom 2023 &copy;  <br></br> All content Copyright &copy; 2023 <br></br>Ebony & Ivory Media </p>
+            <p className="copyright">Developed <b>by </b>iBOM Esther
+             2023 &copy;  <br></br> All content Copyright &copy; 2023 <br></br>Ebony & Ivory Media </p>
         </div>
         </div>
     )

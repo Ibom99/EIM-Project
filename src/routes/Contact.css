@@ -1,8 +1,85 @@
 .contact-container{
     display: flex;
     flex-direction: row;
+    font-family: 'Lovelo', sans-serif;
+}
+.contact-content{
+    display: flex;
+    position: relative;
 }
 
+.form-container{
+    background-color: rgb(243, 241, 241);
+    width: 50%;
+    padding: 4rem;
+    padding-right: 5rem;
+    margin: 5rem 0rem 10rem 10rem;
+
+}
+.contact-title{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 0.5px solid gray;
+}
+.contact-desc{
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input{
+    margin-bottom: 1rem;
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem;
+    border-bottom: 1px solid grey;
+}
+
+.contact-form textarea{
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    
+}
+.input-select{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+}
+
+.input-select span input{
+    margin-right: 1rem;
+}
+
+.form-email{
+    text-decoration: none;
+    color: gray;
+}
+
+.contact-submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 1rem;
+}
+.contact-img-container{
+    width: 40%;
+    position: absolute;
+    top: 10rem;
+    left: 40rem;
+}
+.contact-img{
+  
+    width: 70%;
+}
 
 
 
@@ -11,4 +88,42 @@
     .contact-container{
         flex-direction: column;
     }
+    .contact-content{
+        flex-direction: column-reverse;
+    }
+    .contact-desc{
+        margin-bottom: 2rem;
+    }
+    .input-select{
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-form input{
+        margin-bottom: 2rem;
+    }
+    .contact-title,
+    .contact-desc{
+        text-align: center;
+    }
+    .form-container{
+        width: 100vw;
+        margin: 0 auto;
+        
+        padding: 15rem 3rem 3rem 3rem;
+        margin-top: 15rem;
+    }
+    .contact-img-container{
+        /* position: static;
+         */
+         top: 0;
+         left: 0;
+      display: flex;
+      justify-content: flex-end;
+        width: 100vw;
+z-index: 9;
+/* top: 10rem; */
+margin-top: 3vh;
+    }
+   
+    
 }
