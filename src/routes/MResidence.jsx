@@ -108,6 +108,7 @@ const MResidence = () => {
         </div>
 
         <div className="imageSlider">
+          
           <Carousel responsive={responsive} keyBoardControl={true}>
             <div className="items">
               <img

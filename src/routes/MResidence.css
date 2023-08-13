@@ -14,7 +14,9 @@
 }
 
 .imageSlider{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+    margin-top: 13vh;
+    
     /* margin-left: 1rem; */
 }
 /* .carousel{
